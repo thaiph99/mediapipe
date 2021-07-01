@@ -1,0 +1,14 @@
+directories:
+  # read project settings, e.g., .bazelrc
+  .
+  -mediapipe/objc
+  -mediapipe/examples/ios
+
+targets:
+  //mediapipe/examples/android/...:all
+  //mediapipe/java/...:all
+
+android_sdk_platform: android-29
+
+sync_flags:
+  --host_crosstool_top=@bazel_tools//tools/cpp:toolchain
