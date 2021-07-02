@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="annotation-experimental-1.0.0-rc01_ce54e0bd">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/.blaze/aar_libraries/annotation-experimental-1.0.0-rc01_36f2c72b.aar/res" />
+      <root url="jar://$PROJECT_DIR$/.blaze/aar_libraries/annotation-experimental-1.0.0-rc01_36f2c72b.aar/jars/classes_and_libs_merged.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

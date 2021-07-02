@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="BlazeImportSettings">
+    <option name="buildSystem" value="Bazel" />
+    <option name="locationHash" value="mediapipe-c28d52ee" />
+    <option name="projectDataDirectory" value="$PROJECT_DIR$" />
+    <option name="projectName" value="mediapipe" />
+    <option name="projectViewFile" value="$PROJECT_DIR$/.bazelproject" />
+    <option name="workspaceRoot" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="BlazeSyncStatusState">
+    <option name="dirty" value="true" />
+    <option name="lastSyncFailed" value="true" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c4466840-5939-429a-b786-18edffcdadd8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.blaze/modules/.workspace.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.blaze/modules/.workspace.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mediapipe/examples/android/src/java/com/google/mediapipe/apps/aar_example/build_tutorial.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../mediapipe/examples/android/src/java/com/google/mediapipe/apps/aar_example/build_tutorial.txt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[VirtualDevicePath@/home/it/.android/avd/Pixel_3a_API_30_x86.avd]" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1uhuwZPEK4qWoE6dtknPWrzctrR" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="android.sdk.path" value="$USER_HOME$/Android/Sdk" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../prjtest/mediapipe_face_detection_aar_example" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Unnamed" type="BlazeCommandRunConfigurationType" factoryName="Bazel Command" nameIsGenerated="true">
+      <blaze-settings blaze-command="mobile-install" handler-id="BlazeAndroidBinaryRunConfigurationHandlerProvider" blaze-native-debug="false" DEEP_LINK="" ACTIVITY_CLASS="" MODE="default_activity" launch-method="MOBILE_INSTALL" use-split-apks-if-possible="false" use-work-profile-if-present="false" show-logcat-automatically="false" AM_START_OPTIONS="" kind="android_binary">
+        <blaze-target>//mediapipe/examples/android/src/java/com/google/mediapipe/apps/handtrackinggpu:handtrackinggpu</blaze-target>
+        <blaze-user-flag>-c</blaze-user-flag>
+        <blaze-user-flag>opt</blaze-user-flag>
+        <blaze-user-flag>--config=android_arm64</blaze-user-flag>
+        <Profilers>
+          <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+          <option name="STARTUP_PROFILING_ENABLED" value="false" />
+          <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+          <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+          <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+          <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+        </Profilers>
+      </blaze-settings>
+      <method v="2">
+        <option name="Blaze.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="BlazeCommandRunConfigurationType" factoryName="Bazel Command" singleton="false">
+      <blaze-settings blaze-command="mobile-install" handler-id="BlazeAndroidBinaryRunConfigurationHandlerProvider" blaze-native-debug="false" DEEP_LINK="" ACTIVITY_CLASS="" MODE="default_activity" launch-method="MOBILE_INSTALL" use-split-apks-if-possible="false" use-work-profile-if-present="false" show-logcat-automatically="false" AM_START_OPTIONS="" kind="android_binary">
+        <blaze-target>//mediapipe/examples/android/src/java/com/google/mediapipe/apps/handtrackinggpu:handtrackinggpu</blaze-target>
+        <blaze-user-flag>-c</blaze-user-flag>
+        <blaze-user-flag>opt</blaze-user-flag>
+        <blaze-user-flag>--config=android_arm64</blaze-user-flag>
+        <Profilers>
+          <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+          <option name="STARTUP_PROFILING_ENABLED" value="false" />
+          <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+          <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+          <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+          <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+        </Profilers>
+      </blaze-settings>
+      <method v="2">
+        <option name="Blaze.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c4466840-5939-429a-b786-18edffcdadd8" name="Default Changelist" comment="" />
+      <created>1625130384707</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1625130384707</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="418" y="211" width="1084" height="708" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1625194937022">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="418" y="211" width="1084" height="708" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1625194937022" />
+    <state x="593" y="283" width="724" height="547" key="#com.intellij.ide.util.ExportDialog" timestamp="1625191201663">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="593" y="283" width="724" height="547" key="#com.intellij.ide.util.ExportDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1625191201663" />
+    <state x="100" y="127" width="1720" height="853" key="AVDManager" timestamp="1625200061420">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="100" y="127" width="1720" height="853" key="AVDManager/0.27.1920.1053@0.27.1920.1053" timestamp="1625200061420" />
+    <state x="737" y="301" width="424" height="518" key="FileChooserDialogImpl" timestamp="1625202765807">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="737" y="301" width="424" height="518" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1625202765807" />
+    <state width="1920" height="475" key="GridCell.Tab.0.bottom" timestamp="1625199846839">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1920" height="475" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1625199846839" />
+    <state width="1920" height="475" key="GridCell.Tab.0.center" timestamp="1625199846839">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1920" height="475" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1625199846839" />
+    <state width="1920" height="475" key="GridCell.Tab.0.left" timestamp="1625199846838">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1920" height="475" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1625199846838" />
+    <state width="1920" height="475" key="GridCell.Tab.0.right" timestamp="1625199846839">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1920" height="475" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1625199846839" />
+    <state x="456" y="188" width="1007" height="737" key="SettingsEditor" timestamp="1625198364202">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="456" y="188" width="1007" height="737" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1625198364202" />
+    <state x="665" y="365" width="580" height="383" key="com.android.tools.idea.run.deployment.SelectMultipleDevicesDialog" timestamp="1625200006307">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="665" y="365" width="580" height="383" key="com.android.tools.idea.run.deployment.SelectMultipleDevicesDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1625200006307" />
+    <state x="624" y="252" key="run.anything.popup" timestamp="1625191241340">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="624" y="252" key="run.anything.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1625191241340" />
+  </component>
+</project>
