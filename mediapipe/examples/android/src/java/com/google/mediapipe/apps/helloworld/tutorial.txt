@@ -2,8 +2,9 @@ APPLICATION_PATH = mediapipe/examples/android/src/java/com/google/mediapipe/apps
 PACKAGE_PATH =  com.google.mediapipe.apps.helloworld
 
 bazel build -c opt --config=android_arm64 --action_env PYTHON_BIN_PATH=$(which python3) mediapipe/examples/android/src/java/com/google/mediapipe/apps/helloworld:helloworld
-bazel build -c opt --config=android_arm64 mediapipe/examples/android/src/java/com/google/mediapipe/apps/helloworld:helloworld
-bazel build -c opt --config=android_arm64 mediapipe/examples/android/src/java/com/google/mediapipe/apps/basic:helloworld
+bazel build -c opt --config=android_arm64 //mediapipe/examples/android/src/java/com/google/mediapipe/apps/helloworld:helloworld
+bazel build -c opt --config=android_arm64 //mediapipe/examples/android/src/java/com/google/mediapipe/apps/basic1:helloworld
 
 
 adb install bazel-bin/mediapipe/examples/android/src/java/com/google/mediapipe/apps/helloworld/helloworld.apk
+adb install bazel-bin/mediapipe/examples/android/src/java/com/google/mediapipe/apps/basic1/helloworld.apk

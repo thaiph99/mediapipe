@@ -11,9 +11,10 @@ bazel build -c opt --strip=ALWAYS \
 
 export ANDROID_HOME=/home/it/Android/Sdk
 export ANDROID_NDK_HOME=/home/it/Android/Sdk/ndk/20.0.5594570
-export JAVA_HOME=which java
 
 /home/it/Android/Sdk/ndk-bundle
+
+bazel clean --expunge
 
 
 chmod +x bazel-3.0.0-installer-linux-x86_64.sh
@@ -25,3 +26,13 @@ sudo update-alternatives --config java
 
 cp bazel-bin/mediapipe/examples/android/src/java/com/google/mediapipe/apps/aar_example/mediapipe_face_detection.aar 
 /home/it/Data
+
+
+bazel build -c opt mediapipe/graphs/face_detection:face_detection_mobile_gpu_binary_graph
+cp bazel-bin/mediapipe/graphs/face_detection/face_detection_mobile_gpu.binarypb /path/to/your/app/src/main/assets/
+cp mediapipe/modules/face_detection/face_detection_short_range.tflite /path/to/your/app/src/main/assets/
+
+
+bazel build -c opt mediapipe/graphs/face_detection:face_detection_mobile_cpu_binary_graph
+cp bazel-bin/mediapipe/graphs/face_detection/face_detection_mobile_gpu.binarypb /path/to/your/app/src/main/assets/
+cp mediapipe/modules/face_detection/face_detection_short_range.tflite /path/to/your/app/src/main/assets/
