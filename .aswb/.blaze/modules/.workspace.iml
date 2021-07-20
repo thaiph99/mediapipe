@@ -102,6 +102,7 @@
     <orderEntry type="library" name="libmesh_3d_proto-lite-hjar_f12f0e15" level="project" />
     <orderEntry type="library" name="liblandmark_proto-lite-hjar_faaee475" level="project" />
     <orderEntry type="library" name="libmatrix_data_proto-lite-hjar_caccbc04" level="project" />
+    <orderEntry type="module" module-name="mediapipe.examples.android.src.java.com.google.mediapipe.apps.basic1.basic_lib" exported="" />
     <orderEntry type="module" module-name="mediapipe.examples.android.src.java.com.google.mediapipe.apps.instantmotiontracking.instantmotiontracking_lib" exported="" />
     <orderEntry type="module" module-name="mediapipe.examples.android.src.java.com.google.mediapipe.apps.basic.basic_lib" exported="" />
   </component>
