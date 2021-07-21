@@ -42,3 +42,5 @@ bazel build -c opt mediapipe/graphs/face_detection:face_detection_mobile_cpu_bin
 cp bazel-bin/mediapipe/graphs/face_detection/face_detection_mobile_gpu.binarypb /path/to/your/app/src/main/assets/
 cp mediapipe/modules/face_detection/face_detection_short_range.tflite /path/to/your/app/src/main/assets/
 
+bazel build -c opt --config=android_arm64 mediapipe/examples/android/src/java/com/google/mediapipe/apps/iristrackinggpu:iristrackinggpu
+

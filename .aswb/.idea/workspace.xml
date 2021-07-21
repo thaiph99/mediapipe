@@ -36,13 +36,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="547c858a-cb4a-43ed-9f8b-ab24de89ec4b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.blaze/modules/.workspace.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.blaze/modules/.workspace.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.blaze/modules/mediapipe.examples.android.src.java.com.google.mediapipe.apps.basic.basic_lib.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.blaze/modules/mediapipe.examples.android.src.java.com.google.mediapipe.apps.instantmotiontracking.instantmotiontracking_lib.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="547c858a-cb4a-43ed-9f8b-ab24de89ec4b" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
